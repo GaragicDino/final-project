@@ -1,0 +1,276 @@
+body {
+    background-color: gray;
+}
+
+.div1 {
+    text-align: center;
+    border: 1px solid black;
+    margin: auto;
+    width: 800px;
+    border-radius: 10px;
+    background-color: darkorange;
+}
+
+.div2 {
+    text-align: center;
+    background-color: darkorange;
+    border: 1px solid black;
+    margin: auto;
+    width: 800px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3, h2, h1 {
+    font-family: 'Alata', sans-serif;
+}
+
+hr {
+    width: 650px;
+    
+}
+
+p {
+    font-family: 'Doppio One', sans-serif;
+    margin: 0px;
+}
+
+.hr1 {
+    width: 395px;
+    border: 1px solid black;
+}
+
+.HP {
+    width: 20px;
+    height: 5px;
+    background-color: green;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.HP-stat {
+    text-align: center;
+}
+
+.ATK {
+    width: 20px;
+    height: 5px;
+    background-color: red;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.ATK-stat {
+    text-align: center;
+}
+
+.DEF {
+    width: 20px;
+    height: 5px;
+    background-color: lightskyblue;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.DEF-stat {
+    text-align: center;
+}
+
+
+.background {
+    width: 675px;
+    height: 625px;
+    background-color: gray;
+    border-radius: 10px;
+    margin: auto;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.title {
+    width: 675px;
+    height: 100px;
+    background-color: darkorange;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.stats {
+    width: 485px;
+    background-color: darkorange;
+    height: 125px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+    
+}
+
+.character-pic {
+    background-color: darkorange;
+    height: 200px;
+    width: 160px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+.name {
+    background-color: crimson;
+    text-align: center;
+    position: relative;
+    width: 540px;
+    margin: auto;
+   
+}
+
+.img-title {
+    border: 2px solid black;
+    width: 30px;
+}
+
+.details {
+    border: 1px solid black;
+    width: 200px;
+    
+    
+}
+
+.max-lv, .sa-lv, .rarity, .type, .cost {
+    width: 100px;
+    text-align: center;
+    border: 2px solid black;
+    font-family: 'Doppio One', sans-serif;
+    
+}
+
+.lv, .sa, .rare, .class-type, .char-cost {
+    height: 45px;
+    text-align: center;
+    border: 2px solid black;
+   
+}
+
+.inner-table {
+    margin: auto;
+}
+
+.stat, .base, .max1, .max2, .max3 {
+    width: 100px;
+    height: 20px;
+    background-color: crimson;
+    border: 2px solid black;
+    text-align: center;
+    font-family: 'Doppio One', sans-serif;
+}
+
+td { 
+    border: 2px solid black;
+    margin: auto;
+    
+}
+
+.info-bckgrnd {
+    background-color: darkorange;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 500px;
+
+}
+
+.leader-skill {
+    border: none;
+    width: 400px;
+    background-color: crimson;
+    text-align: center;
+    
+  
+}
+
+.leader-info {
+    border: 1px solid black;
+    background-color: darkorange;
+    font-family: 'Doppio One', sans-serif;
+}
+
+.SA {
+    border: none;
+    background-color: crimson;
+    text-align: center;
+    
+}
+
+.SA-info {
+    border: 1px solid black;
+    background-color: darkorange;
+    font-family: 'Doppio One', sans-serif;
+
+}
+
+.PS {
+    border: none;
+    background-color: crimson;
+    text-align: center;
+}
+
+.PS-info {
+    border: 1px solid black;
+    background-color: darkorange;
+    font-family: 'Doppio One', sans-serif;
+
+}
+
+
+.LS {
+    border: none;
+    background-color: crimson;
+    text-align: center;
+}
+
+.LS-info {
+    border: 1px solid black;
+    background-color: darkorange;
+    font-family: 'Doppio One', sans-serif;
+}
+
+.Category {
+    border: none;
+    background-color: crimson;
+    text-align: center;
+}
+
+.category-info {
+    border: 1px solid black;
+    background-color: darkorange;
+    font-family: 'Doppio One', sans-serif;
+}
+
+.release-date {
+    background-color: darkorange;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'Doppio One', sans-serif;
+    height: 125px;
+    width: 175px;
+    text-align: center;
+}
+
+.rd-name {
+    background-color: crimson;
+    text-align: center;
+}
+
+.srch-btn {
+    border: 1px solid black;
+    background-color: blue;
+}
+
+.misc1{
+    border: none;
+}
+
+.misc2 {
+    border: none;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Final Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Character Stats</h1>
+    <div class="background">
+      <table class="title">
+        <tr>
+          <td class="img-title">
+            <img id="cardImg"
+              src=""
+              width="100px"
+              hspace="5px"
+            />
+          </td>
+          <td>
+            <h3 class="name"><span id="name"><br/></span></h3>
+          
+
+            <!-- Inner Table -->
+            <table class="inner-table">
+              <tr>
+                <td class="max-lv">Max lv</td>
+                <td class="sa-lv">SA lv</td>
+                <td class="rarity">Rarity</td>
+                <td class="type">Type</td>
+                <td class="cost">Cost</td>
+
+              </tr>
+              <tr>
+                <td class="lv"><span id="maxLv"></span></td>
+                <td class="sa"><span id="saLv"></span></td>
+                <td class="rare">
+                  <img id="rarityIcon" src="" width="60px" hspace="15px">
+                </td>
+                <td class="class-type">
+                  <img id="type" src="" width="40px" hspace="25px">
+                </td>
+                <td id="cost" class="char-cost"><span></span></td>
+              </tr>
+            </table>
+        </table>
+        <!-- Character Picture -->
+      <table>
+        <tr>
+          <td class="character-pic">
+          <img id="fullImg" src="" width="209" hspace="30px" />
+          </td>
+          <!-- Character Info -->
+          <td class="info-bckgrnd">
+            <table>
+              <tr>
+                <td class="leader-skill">
+                  <h3>Leader Skill</h3>
+                  <p class="leader-info"><span id="leaderSkill"></span>
+                </td>
+              </tr>
+              <tr>
+                <td class="SA">
+                  <h3>Super Attack: <span id="saName"></span></h3>
+                  <p class="SA-info"><span id="saInfo"></span></p>
+                </td>
+              </tr>
+              <tr>
+                <td class="PS">
+                  <h3 class="PS-font">Passive Skill:<span id="psName"></span></h3>
+                  <p class="PS-info"><span id="psInfo"></span></p>
+                </td>
+              </tr>
+              <tr>
+                <td class="LS">
+                  <h3>Link Skill</h3>
+                  <p class="LS-info"><span id="linkSkills"></span></p>
+                </td>
+              </tr>
+              <tr>
+                <td class="Category">
+                  <h3>Category</h3>
+                  <p class="category-info"><span id="category"></span></p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+     
+      <!-- Release Date -->
+      <table>
+        <td class="misc1"> <table class="release-date">
+            <tr class="rd-name">
+              <td>Release Date</td>
+            </tr>
+            <tr>
+              <td><p><span id="jpRelease"></span></p></td>
+            </tr>
+            <tr>
+              <td><p><span id="glRelease"></span></p></td>
+            </tr>
+          </td>
+        </table>
+          <td id="misc2"><table class="stats">
+            <tr>
+              <td class="stat">Stats</td>
+              <td class="base">Base</td>
+              <td class="max1">Max <img src="Images/Battle-Star.png" width="20"></td>
+              <td class="max2">Max <img src="Images/lock.png" width="20"></td>
+              <td class="max3">Max <img src="Images/Awaken_max_rainbow_star.png" width="20"> </td>
+            </tr>
+            <tr>
+              <td class="HP"><p><strong>HP:</strong></p></td>
+              <td><p class="HP-stat"><span id="baseHp"></span></p></td>
+              <td><p class="HP-stat"><span id="max1Hp"></span></p></td>
+              <td><p class="HP-stat"><span id="max2Hp"></span></p></td>
+              <td><p class="HP-stat"><span id="max3Hp"></span></p></td>
+            </tr>
+            <tr>
+              <td class="ATK"><p><strong>ATK:</strong></p></td>
+              <td><p class="ATK-stat"><span id="baseAtk"></span></p></td>
+              <td><p class="ATK-stat"><span id="max1Atk"></span></p></td>
+              <td><p class="ATK-stat"><span id="max2Atk"></span></p></td>
+              <td><p class="ATK-stat"><span id="max3Atk"></span></p></td>
+            </tr>
+            <tr> 
+              <td class="DEF"><p><strong>DEF:</strong></p></td>
+              <td><p class="DEF-stat"><span id="baseDef"></span></td>
+              <td><p class="DEF-stat"><span id="max1Def"></span></td>
+              <td><p class="DEF-stat"><span id="max2Def"></span></td>
+              <td><p class="DEF-stat"><span id="max3Def"></span></td>
+            </tr>
+          </table></td>
+       </table>
+
+       <p>Find a character by searching them up:<input id="input-name"><button id="search">Search</button></p>
+        
+
+
+    <p id="Broly" style="display: none"></p>
+    <p id="GokuSsj3" style="display: none"></p>
+    <p id="GokuSsj4" style="display: none"></p>
+    <!-- Load JavaScript -->
+      <script src="second.js"></script>
+    </div>
+  </body>
+</html>
